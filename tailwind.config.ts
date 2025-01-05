@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -12,6 +13,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        montserrat: "Montserrat",
+        poppins:'Poppins',
+        Oswald:'Oswald',
+        Roboto:'Roboto',
+        Raleway:'Raleway'
+      }
     },
   },
   plugins: [],
